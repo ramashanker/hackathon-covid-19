@@ -24,7 +24,7 @@
 
     <modules>
         <module>healthcare-ui</module>
-        <module>spring-websocket</module>
+        <module>healthcare</module>
     </modules>
 
 </project>

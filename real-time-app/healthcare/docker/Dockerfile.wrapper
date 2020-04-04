@@ -1,0 +1,5 @@
+ARG OLD_IMAGE
+FROM $OLD_IMAGE
+COPY pre_execution.sh /
+RUN /bin/chmod +x pre_execution.sh
+CMD ["/bin/bash", "-c", "./pre_execution.sh ; ./docker-entrypoint.sh"]

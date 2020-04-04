@@ -5,14 +5,14 @@ mvn clean install
 ```
 
 ## Running the application
-Make sure to build first, see above. Run from the `spring-websocket` directory.
+Make sure to build first, see above. Run from the `healthcare` directory.
 
 ```bash
 mvn -Dspring-boot.run.profiles=local -DskipTests spring-boot:run
 ```
 
 ## Create docker image
-Run from the `spring-websocket` directory.
+Run from the `healthcare` directory.
 
 ```bash
 mvn clean package docker:build -Dmaven.test.skip=true
@@ -21,11 +21,11 @@ mvn clean package docker:build -Dmaven.test.skip=true
 ## Run Docker image
 
 ```bash
-docker run -p 5657:5657 spring-websocket:latest
+docker run -p 5657:5657 healthcare:latest
 ```
 ## Run Docker-compose with splunk log monitoring image
 
-Run from the `spring-websocket\docker` directory
+Run from the `healthcare\docker` directory
 
 Start Application
 
