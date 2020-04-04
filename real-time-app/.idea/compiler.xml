@@ -6,23 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vital-ui" />
+        <module name="softcar-springboot" />
         <module name="healthcare-ui" />
-        <module name="spring-websocket" />
+        <module name="softcar-ui" />
+        <module name="healthcare" />
+        <module name="vital-ui" />
+        <module name="softcar-business-impl" />
+        <module name="softcar-business-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="healthcare" target="1.8" />
       <module name="healthcare-ui" target="1.8" />
       <module name="real-time-app" target="1.8" />
-      <module name="spring-websocket" target="1.8" />
+      <module name="softcar" target="11" />
+      <module name="softcar-business-impl" target="11" />
+      <module name="softcar-business-interface" target="11" />
+      <module name="softcar-springboot" target="11" />
+      <module name="softcar-ui" target="11" />
       <module name="vital" target="1.8" />
       <module name="vital-ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="healthcare" options="-parameters" />
       <module name="healthcare-ui" options="-parameters" />
-      <module name="spring-websocket" options="-parameters" />
+      <module name="softcar-business-impl" options="-parameters" />
+      <module name="softcar-business-interface" options="-parameters" />
+      <module name="softcar-springboot" options="-parameters" />
+      <module name="softcar-ui" options="-parameters" />
       <module name="vital-ui" options="-parameters" />
       <module name="websocket-ui" options="-parameters" />
     </option>
