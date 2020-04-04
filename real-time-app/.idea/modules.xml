@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/healthcare-ui/healthcare-ui.iml" filepath="$PROJECT_DIR$/healthcare-ui/healthcare-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/real-time-app.iml" filepath="$PROJECT_DIR$/real-time-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-websocket/spring-websocket.iml" filepath="$PROJECT_DIR$/spring-websocket/spring-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket-ui/vital-ui.iml" filepath="$PROJECT_DIR$/websocket-ui/vital-ui.iml" />
+    </modules>
+  </component>
+</project>

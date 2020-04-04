@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vital-ui" />
+        <module name="healthcare-ui" />
+        <module name="spring-websocket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="healthcare-ui" target="1.8" />
+      <module name="real-time-app" target="1.8" />
+      <module name="spring-websocket" target="1.8" />
+      <module name="vital" target="1.8" />
+      <module name="vital-ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="healthcare-ui" options="-parameters" />
+      <module name="spring-websocket" options="-parameters" />
+      <module name="vital-ui" options="-parameters" />
+      <module name="websocket-ui" options="-parameters" />
+    </option>
+  </component>
+</project>

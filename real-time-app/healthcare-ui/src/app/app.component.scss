@@ -1,0 +1,21 @@
+nav{
+  height:5vh;
+  /*Or fixed pixel unit*/
+  background-color: rgb(105, 97, 141);
+ }
+
+ footer{
+  height:5vh;
+  /*Or fixed pixel unit*/
+  background-color: rgb(105, 97, 141);;
+ }
+ 
+ section {
+   height: calc(90vh);
+   /* - Height: calc(100vh - (navheight + footer))
+      - Over flow y make the dive scrollable 
+   when it exceed the fixed height*/
+   overflow-y: auto;
+   transition: all 0.5s;
+   background-color: rgb(245, 245, 240);
+ }
