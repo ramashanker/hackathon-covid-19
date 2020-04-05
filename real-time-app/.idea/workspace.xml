@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="542d93d1-263b-4e34-b107-22100a961d8d" name="Default Changelist" comment="start kafka and setup project">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="542d93d1-263b-4e34-b107-22100a961d8d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-ui/src/app/models/VitalData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-ui/src/app/models/VitalData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-ui/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-ui/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare-ui/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-ui/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/healthcare/healthcare.iml" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare/healthcare.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healthcare-ui/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/healthcare-ui/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586024890340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed image and ui">
+      <created>1586080003075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586080003075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,7 +125,8 @@
     <MESSAGE value="readme document and docker update" />
     <MESSAGE value="start kafka and setup project updated docker" />
     <MESSAGE value="removed target" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed target" />
+    <MESSAGE value="changed image and ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed image and ui" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="214" width="847" height="677" key="#Project_Structure" timestamp="1586014471482">
@@ -144,10 +145,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="739" y="355" width="969" height="511" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1585987321881" />
-    <state x="217" y="129" width="1603" height="847" key="CommitChangelistDialog2" timestamp="1586079885331">
+    <state x="217" y="129" width="1603" height="847" key="CommitChangelistDialog2" timestamp="1586080002988">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="217" y="129" width="1603" height="847" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1586079885331" />
+    <state x="217" y="129" width="1603" height="847" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1586080002988" />
     <state width="462" height="506" key="DebuggerActiveHint" timestamp="1585987285299">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -205,10 +206,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1586021875881" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586024896126">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586080015763">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1586024896126" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1586080015763" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586027336207">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
