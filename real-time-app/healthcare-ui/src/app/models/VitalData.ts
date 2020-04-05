@@ -6,5 +6,6 @@ export  class  VitalData{
         public bloodPress: number,
         public spo2: number,
         public timestamp:String,
+        public patient:String,
     ) {  }
 }

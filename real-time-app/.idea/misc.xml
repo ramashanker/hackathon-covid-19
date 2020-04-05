@@ -10,6 +10,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/pom.xml" />
+        <option value="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-business-impl/pom.xml" />
+        <option value="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-business-interface/pom.xml" />
+        <option value="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-springboot/pom.xml" />
+        <option value="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-ui/pom.xml" />
         <option value="$PROJECT_DIR$/websocket-ui/pom.xml" />
       </set>
     </option>

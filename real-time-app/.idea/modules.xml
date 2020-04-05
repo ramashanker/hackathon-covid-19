@@ -5,11 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/healthcare/healthcare.iml" filepath="$PROJECT_DIR$/healthcare/healthcare.iml" />
       <module fileurl="file://$PROJECT_DIR$/healthcare-ui/healthcare-ui.iml" filepath="$PROJECT_DIR$/healthcare-ui/healthcare-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/real-time-app.iml" filepath="$PROJECT_DIR$/real-time-app.iml" />
-      <module fileurl="file://$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar.iml" filepath="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar.iml" />
-      <module fileurl="file://$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-business-impl/softcar-business-impl.iml" filepath="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-business-impl/softcar-business-impl.iml" />
-      <module fileurl="file://$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-business-interface/softcar-business-interface.iml" filepath="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-business-interface/softcar-business-interface.iml" />
-      <module fileurl="file://$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-springboot/softcar-springboot.iml" filepath="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-springboot/softcar-springboot.iml" />
-      <module fileurl="file://$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-ui/softcar-ui.iml" filepath="$USER_HOME$/git/vocmo/repository/legacy-handler/lh-softcar/softcar-ui/softcar-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket-ui/vital-ui.iml" filepath="$PROJECT_DIR$/websocket-ui/vital-ui.iml" />
     </modules>
   </component>

@@ -6,13 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="softcar-springboot" />
         <module name="healthcare-ui" />
-        <module name="softcar-ui" />
         <module name="healthcare" />
         <module name="vital-ui" />
-        <module name="softcar-business-impl" />
-        <module name="softcar-business-interface" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
