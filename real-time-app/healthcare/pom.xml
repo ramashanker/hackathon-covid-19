@@ -157,14 +157,6 @@
             <artifactId>spring-integration-file</artifactId>
             <version>5.1.4.RELEASE</version>
         </dependency>
-
-        <dependency>
-            <!-- only needed to be able to generate javadoc when doing a release -->
-            <groupId>javax.interceptor</groupId>
-            <artifactId>javax.interceptor-api</artifactId>
-            <version>3.1</version>
-            <scope>provided</scope>
-        </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
