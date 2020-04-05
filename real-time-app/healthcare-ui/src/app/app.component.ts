@@ -33,29 +33,11 @@ export class AppComponent implements OnInit {
 
 
     ngOnInit() {
-        this.rxStompService.watch('/topic/patient').subscribe(message => {
-            console.log(JSON.parse(message.body));
-            const vitaldata: VitalData = JSON.parse(JSON.parse(message.body));
-            this.bodyTemp.push(vitaldata.bodyTemp);
-            this.pulseRate.push(vitaldata.pulseRate);
-            this.respRate.push(vitaldata.respRate);
-            this.bloodPress.push(vitaldata.bloodPress);
-            this.spo2.push(vitaldata.spo2);
-            this.timestamp.push(vitaldata.timestamp);
-            this.VitalsDataGraph()
-          });
+
       }
 
       selectedCases(value: any){
-
       this.VitalsDataGraph();
-
-      }
-
-      selectedSingleTrip(value: any){
-        console.log(value)
-        this.clearAllVitalData()
-        this.getdataforthepatient(value);
       }
 
       public getdataforthepatient(value){
@@ -73,19 +55,25 @@ export class AppComponent implements OnInit {
         }
 
         public streamPatientData(value){
-            /*const vitaldata: VitalData = JSON.parse(message.body);
+            this.rxStompService.watch('/topic/patient').subscribe(message => {
+            console.log(JSON.parse(message.body));
+            const vitaldata: VitalData = JSON.parse(JSON.parse(message.body));
             this.bodyTemp.push(vitaldata.bodyTemp);
             this.pulseRate.push(vitaldata.pulseRate);
-            this.respRate.push(vitaldata.bodyTemp);
-            this.bloodPress.push(vitaldata.respRate);
+            this.respRate.push(vitaldata.respRate);
+            this.bloodPress.push(vitaldata.bloodPress);
             this.spo2.push(vitaldata.spo2);
-            this.timestamp.push(vitaldata.bodyTemp);
-            this.VitalsDataGraph()*/
+            this.timestamp.push(vitaldata.timestamp);
+            this.VitalsDataGraph()
+          });
         }
 
      VitalsDataGraph(){
-        this.healthChart = new Chart('canvas', {
+        let chart = new Chart('canvas', {
           type: 'line',
+          title: {
+			          text: "Vital Monitoring"
+          },
           data: {
             labels: this.timestamp,
             datasets: [
@@ -135,6 +123,7 @@ export class AppComponent implements OnInit {
             }
           }
         });
+      chart.render()
      }
      clearAllVitalData() {
       this.vitals=[];
