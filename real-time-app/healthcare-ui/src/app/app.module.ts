@@ -15,8 +15,6 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { InjectableRxStompConfig, RxStompService, rxStompServiceFactory } from '@stomp/ng2-stompjs';
 import { rxStompConfig } from './rx-stomp.config';
-import { MatCheckboxModule, MatCardModule } from '@angular/material';
-
 @NgModule({
 declarations: [
 AppComponent,
@@ -35,9 +33,7 @@ MatTabsModule,
 MatProgressSpinnerModule,
 MatSnackBarModule,
 MatDialogModule,
-MatExpansionModule,
-MatCheckboxModule,
-MatCardModule
+MatExpansionModule
 ],
 providers: [
 {

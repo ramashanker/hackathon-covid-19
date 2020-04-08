@@ -157,5 +157,8 @@
       }
     }
   },
-  "defaultProject": "softcar-gui"
+  "defaultProject": "softcar-gui",
+  "cli": {
+    "analytics": "3862869d-bb41-4dd4-bd85-2b4cf4b8b4c4"
+  }
 }
